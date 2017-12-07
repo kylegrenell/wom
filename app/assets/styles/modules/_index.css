@@ -1,5 +1,5 @@
 .bkgd-first {
-  background-image: url(../../assets/images/1920tent.png);
+  background-image: url(assets/images/1920tent.png);
   width: 100%;
   height: 100vh;
   background-size: contain;
@@ -23,7 +23,7 @@
 }
 
 .bkgd-third {
-  background-image: url(../../assets/images/1440house.png);
+  background-image: url(assets/images/1440house.png);
   width: 100%;
   height: 100vh;
   background-size: contain;
