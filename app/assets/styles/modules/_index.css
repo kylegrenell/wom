@@ -1,0 +1,33 @@
+.bkgd-first {
+  background-image: url(../../assets/images/1920tent.png);
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-position: center; 
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+
+.bkgd-second {
+  background-attachment: fixed;
+  background-color: #E6E6FA; /*lavender*/
+  height: 100vh;
+  display: block;
+
+  & p {
+    padding-top: 20%;
+    font-size: 5rem;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.bkgd-third {
+  background-image: url(../../assets/images/1440house.png);
+  width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-position: center; 
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}

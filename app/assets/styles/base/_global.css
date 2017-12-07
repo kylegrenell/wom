@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #9E8ABE;
+  font-weight: 400;
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur265.cur), progress !important;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  /*list-style-type: none;*/
+  padding: 0;
+  max-width: 100%;
+}
+
+ul li {
+  display: list-item;
+  padding: 5px 10px;
+  margin: 0 5px 0 0;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur265.cur), progress !important;
+}
+
+br.large-break {
+  line-height: 200%;
+}
