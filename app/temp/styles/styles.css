@@ -500,36 +500,38 @@ font-family: PoetsenOne;
 src: url(../../assets/fonts/PoetsenOne-Regular.ttf);
 }
 
-.bkgd-first {
-  background-image: url(assets/images/1920tent.png);
-  width: 100%;
-  height: 100vh;
-  background-size: contain;
-  background-position: center; 
-  background-attachment: fixed;
-  background-repeat: repeat-x;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    background-attachment: fixed;
 }
 
 .bkgd-second {
-  background-attachment: fixed;
-  background-color: #E6E6FA; /*lavender*/
-  height: 100vh;
+
+  background-color: #E6E6FA;
+  height: auto;
   display: block;
 }
 
 .bkgd-second p {
-    padding-top: 20%;
-    font-size: 5rem;
+    padding: 40px 20px;
+    font-size: 2rem;
     margin: 0;
     text-align: center;
   }
 
-.bkgd-third {
-  background-image: url(assets/images/1440house.png);
-  width: 100%;
-  height: 100vh;
-  background-size: contain;
-  background-position: center; 
-  background-attachment: fixed;
-  background-repeat: repeat-x;
-}
+@media(min-width: 680px){
+
+.bkgd-second p {
+      font-size: 3rem
+  }
+  }
